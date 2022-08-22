@@ -49,7 +49,9 @@ document.getElementById('playerid-oneplayer').addEventListener('click', function
 document.getElementById('all-total-btn').addEventListener('click',function(){
     const managerCostField = document.getElementById('manager-cost'); 
     const managerCoststing = managerCostField.value;
-   const managercosttotal =parseFloat(managerCoststing)
+   const managercosttotal =parseFloat(managerCoststing);
+
+   
    if(isNaN(managercosttotal)){
     alert('enter right number')
     managerCostField.value='';
@@ -58,7 +60,9 @@ document.getElementById('all-total-btn').addEventListener('click',function(){
     //console.log(managercosttotal)
     const coachCostField = document.getElementById('coach-cost'); 
     const coachCoststing = coachCostField.value;
-    const coachtotalcost=parseFloat(coachCoststing) 
+    const coachtotalcost=parseFloat(coachCoststing) ;
+
+    
     if(isNaN(coachtotalcost)){
         alert('enter right number')
         coachCostField.value='';
