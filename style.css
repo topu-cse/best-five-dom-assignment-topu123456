@@ -1,0 +1,108 @@
+/*--------header-------*/
+
+.header-file{
+    background-image: url(img/b2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.text-header{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Source Serif Pro', serif;
+font-size: 100px;
+}
+.header-text p{
+  font-size: 20px;
+}
+.header-text{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 70%;
+    color: white;
+    text-align: center;
+    
+}
+@media only screen and (max-width:980px){
+    .header-text{
+        position: absolute;
+        
+        left: 00%;
+        width: 100%;
+        color: white;
+        text-align: center;
+        
+    }
+    .text-header{
+        font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
+    }
+    .header-text p{
+        font-size: 15px;
+        padding: 10px;
+      }
+}
+/*---------card-------*/
+.card-section{
+   padding-top: 100px;
+    background-color: rgb(19, 17, 17);
+}
+.card img{
+height: 200px;
+}
+.card{
+    margin-top: 20px;
+  
+} 
+.header-card{
+    text-align: center;
+    color: white;
+    background-color: black;
+   padding-top: 15px;
+    
+}
+.header-card h1{
+    font-size: 20px;
+}
+.card-row{
+    padding-top: 100px;
+    background-color:rgb(19, 17, 17) ;
+}
+
+.btn-button{
+    background-color:grey;
+    margin-bottom: 10px;
+    padding: 5px 30px;
+    color: white;
+    
+}
+
+
+
+
+
+.handle-card h3{
+    text-align: center;
+    background-color: black;
+    
+}
+.handle-card .card  p{
+    color:#fff;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+.handle-card .card h3{
+color: #fff;
+margin-bottom: 20px;
+}
+.handle-card .card{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
