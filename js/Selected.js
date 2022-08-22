@@ -46,6 +46,8 @@ document.getElementById('playerid-oneplayer').addEventListener('click', function
 })
 
 
+
+
 document.getElementById('all-total-btn').addEventListener('click',function(){
     const managerCostField = document.getElementById('manager-cost'); 
     const managerCoststing = managerCostField.value;
@@ -57,7 +59,7 @@ document.getElementById('all-total-btn').addEventListener('click',function(){
     managerCostField.value='';
     return;
 } 
-    //console.log(managercosttotal)
+   
     const coachCostField = document.getElementById('coach-cost'); 
     const coachCoststing = coachCostField.value;
     const coachtotalcost=parseFloat(coachCoststing) ;
@@ -68,15 +70,14 @@ document.getElementById('all-total-btn').addEventListener('click',function(){
         coachCostField.value='';
         return;
     } 
-    //console.log(coachtotalcost)
+    
     const playerscostForHireField = document.getElementById('totalplayer-cost'); 
     const playerscostForHire = parseInt(playerscostForHireField.innerText); 
  
     
 
     const totalField = document.getElementById('total');
-   //const totalFieldsting=totalField.innerText;
-//    const totalvalue=parseFloat(totalFieldsting)
+ 
   const totalvalue =playerscostForHire + managercosttotal + coachtotalcost ;
   totalField.innerText = totalvalue;
     
