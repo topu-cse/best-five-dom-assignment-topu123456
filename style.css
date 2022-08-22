@@ -82,7 +82,9 @@ height: 200px;
     
 }
 
-
+.card-body{
+    background-color: black;
+}
 
 
 
@@ -105,4 +107,30 @@ margin-bottom: 20px;
     background-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.display-players { 
+    display: flex; 
+    flex-direction: column; 
+    margin-top: -20px; 
+} 
+
+.input-sizing { 
+    margin-top: -2px; 
+    margin-left: 0px; 
+    margin-bottom: 1px; 
+} 
+
+.ammount-section { 
+    margin-left: 10px; 
+} 
+
+.ammount-section-total { 
+    margin-left: 20px; 
+}
+.total-anu{
+    text-align: right;
+}
+
+.ammount-section-total{
+    right: 100px;
 }
