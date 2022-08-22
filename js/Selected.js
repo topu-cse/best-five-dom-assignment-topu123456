@@ -31,7 +31,14 @@ const ozil = getPlayerName('ozil-btn', 'ozil');
 
 document.getElementById('playerid-oneplayer').addEventListener('click', function () { 
     const playerfile = document.getElementById('perPlayer-cost'); 
-    const costValue = playerfile.value; 
+    const costValue = playerfile.value;
+    
+   
+    if(isNaN(costValue)){
+      alert('enter right number')
+      playerfile.value='';
+      return;
+  } 
     const selectedPlayersCost = document.getElementById('serial-inputName').childNodes.length - 1; 
     const playersExpences = costValue * selectedPlayersCost; 
     const playersCostFeild = document.getElementById('totalplayer-cost'); 
@@ -43,10 +50,20 @@ document.getElementById('all-total-btn').addEventListener('click',function(){
     const managerCostField = document.getElementById('manager-cost'); 
     const managerCoststing = managerCostField.value;
    const managercosttotal =parseFloat(managerCoststing)
+   if(isNaN(managercosttotal)){
+    alert('enter right number')
+    managerCostField.value='';
+    return;
+} 
     //console.log(managercosttotal)
     const coachCostField = document.getElementById('coach-cost'); 
     const coachCoststing = coachCostField.value;
     const coachtotalcost=parseFloat(coachCoststing) 
+    if(isNaN(coachtotalcost)){
+        alert('enter right number')
+        coachCostField.value='';
+        return;
+    } 
     //console.log(coachtotalcost)
     const playerscostForHireField = document.getElementById('totalplayer-cost'); 
     const playerscostForHire = parseInt(playerscostForHireField.innerText); 
