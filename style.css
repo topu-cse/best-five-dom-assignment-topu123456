@@ -121,7 +121,8 @@ margin-bottom: 20px;
 } 
 
 .ammount-section { 
-    margin-left: 10px; 
+    margin-left: 10px;
+   
 } 
 
 .ammount-section-total { 
@@ -131,3 +132,16 @@ margin-bottom: 20px;
     text-align: right;
 }
 
+.last-header{
+    
+    color: #fff;
+    text-align: center;
+}
+.header-point{
+    background-color: rgb(19, 17, 17) ;
+   padding: 150px 0px 50px 0px;
+}
+.header-last-point{
+    border-top: 1px solid white;
+    padding-top: 30px;
+}
