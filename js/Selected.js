@@ -52,7 +52,7 @@ document.getElementById('all-total-btn').addEventListener('click',function(){
     const managerCostField = document.getElementById('manager-cost'); 
     const managerCoststing = managerCostField.value;
    const managercosttotal =parseFloat(managerCoststing);
-
+console.log(managerCostField)
    
    if(isNaN(managercosttotal)){
     alert('enter right number')
